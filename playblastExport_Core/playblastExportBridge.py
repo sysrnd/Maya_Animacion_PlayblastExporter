@@ -4,12 +4,12 @@ except:
     from PySide2 import QtGui, QtCore
 import os
 
-import MKF_playblastExport.playblastExport_Core.MKF_playblastCore
-reload(MKF_playblastExport.playblastExport_Core.MKF_playblastCore) 
-from MKF_playblastExport.playblastExport_Core.MKF_playblastCore import playblastExport
-import MKF_playblastExport.playblastExport_Core.MKF_SlackMessages
-reload(MKF_playblastExport.playblastExport_Core.MKF_SlackMessages)
-from MKF_playblastExport.playblastExport_Core.MKF_SlackMessages import Slack
+import Animacion.Maya_Animacion_PlayblastExporter.playblastExport_Core.MKF_playblastCore
+reload(Animacion.Maya_Animacion_PlayblastExporter.playblastExport_Core.MKF_playblastCore) 
+from Animacion.Maya_Animacion_PlayblastExporter.playblastExport_Core.MKF_playblastCore import playblastExport
+import Animacion.Maya_Animacion_PlayblastExporter.playblastExport_Core.MKF_SlackMessages
+reload(Animacion.Maya_Animacion_PlayblastExporter.playblastExport_Core.MKF_SlackMessages)
+from Animacion.Maya_Animacion_PlayblastExporter.playblastExport_Core.MKF_SlackMessages import Slack
 
 
 class BridgeActions():

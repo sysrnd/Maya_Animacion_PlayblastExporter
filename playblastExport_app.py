@@ -5,12 +5,12 @@ StandAlone pyqt4
 import sys
 import platform
 from PySide import QtCore, QtGui
-import MKF_playblastExport.playblastExport_UI.MainWindow_v02
-reload(MKF_playblastExport.playblastExport_UI.MainWindow_v02)
-from MKF_playblastExport.playblastExport_UI.MainWindow_v02 import Ui_PlayblastWindow
-import MKF_playblastExport.playblastExport_Core.playblastExportBridge
-reload(MKF_playblastExport.playblastExport_Core.playblastExportBridge)
-from MKF_playblastExport.playblastExport_Core.playblastExportBridge import *
+import  Animacion.Maya_Animacion_PlayblastExporter.playblastExport_UI.MainWindow_v02
+reload( Animacion.Maya_Animacion_PlayblastExporter.playblastExport_UI.MainWindow_v02)
+from  Animacion.Maya_Animacion_PlayblastExporter.playblastExport_UI.MainWindow_v02 import Ui_PlayblastWindow
+import  Animacion.Maya_Animacion_PlayblastExporter.playblastExport_Core.playblastExportBridge
+reload( Animacion.Maya_Animacion_PlayblastExporter.playblastExport_Core.playblastExportBridge)
+from  Animacion.Maya_Animacion_PlayblastExporter.playblastExport_Core.playblastExportBridge import *
 
 #reload(MKF_playblastExport.playblastExport_Core.playblastExportBridge)
 
